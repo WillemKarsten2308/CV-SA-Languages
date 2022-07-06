@@ -1,0 +1,42 @@
+
+# Replacements which are run before sentences are split
+replacements = [
+  ["bv.", "byvoorbeeld"],
+  ["Bv.", "Byvoorbeeld"],
+  ["d.w.s.", "dit wil sê"],
+  ["D.w.s.", "Dit wil sê"],
+  ["Mnr.", "Meneer"],
+  ["Mev.", "Mevrou"],
+  ["Mej.", "Mejuffrou"],
+  ["Prof.", "Professor"],
+  ["Dr.", "Dokter"],
+  ["i.p.v.", "in plaas van"],
+  ["I.p.v.", "In plaas van"],
+  ["No.", "nommer"],
+  ["ens.", "ensovoorts"],
+]
+
+min_trimmed_length = 3
+min_word_count = 3
+max_word_count = 25
+min_characters = 1
+may_end_with_colon = false
+quote_start_with_letter = true
+needs_punctuation_end = false
+needs_letter_start = true
+needs_uppercase_start = false
+broken_whitespace = ["  ", " ,", " .", " ?", " !", " ;"]
+
+allowed_symbols_regex = "[\u0020a-zA-Z\u00C0-\u024F\u1E00-\u1EFF\"„“‚‘’–\\.?!()]"
+even_symbols = ['"']
+matching_symbols = [
+  ["„", "“"],
+  ["(", ")"]
+]
+
+# Abbreviation examples for each regex
+#   - A.B or FBI
+abbreviation_patterns = [
+  "[A-Z]+\\.*[A-Z]"
+]
+

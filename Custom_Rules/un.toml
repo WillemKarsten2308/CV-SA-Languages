@@ -1,0 +1,18 @@
+min_trimmed_length = 3
+min_word_count = 3
+max_word_count = 35
+min_characters = 1
+may_end_with_colon = false
+quote_start_with_letter = true
+needs_punctuation_end = false
+needs_letter_start = true
+needs_uppercase_start = false
+broken_whitespace = ["  ", " ,", " .", " ?", " !", " ;"]
+
+allowed_symbols_regex = "[\u0020a-zA-Z\u00C0-\u024F\u1E00-\u1EFF\"„“‚‘’–\\.?!()]"
+even_symbols = ['"']
+matching_symbols = [
+  ["„", "“"],
+  ["(", ")"]
+]
+
