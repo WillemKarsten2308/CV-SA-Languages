@@ -142,11 +142,11 @@ Custom rules can be defined for each language. To do this, add a <language>.toml
 |Number of Distinct Words in ALL Data(Types)| 542713 | 15204 | 103990 | 58393 | 19261 |
 |Number of Articles| 103734 | 8575 | 10847 | 1436 | 867 |  
   #### The total amount of scraped sentences per language vs Usable Sentences:  
-  <img src="/images/NumSent.png" alt="Sentences for each language" style="height: 480px; width:640px;"/>
+  <img src="/Images/NumSent.png" alt="Sentences for each language" style="height: 480px; width:640px;"/>
   The ratio of total sentences to usable sentences is very low. This is caused by copyright issues meaning that little to no sentences can be scraped from shorter articles.  
   
   #### Types and Tokens Plot  
-  <img src="/images/TypesTokens2.png" alt="Types and Tokens" style="height: 480px; width:1128px;"/>
+  <img src="/Images/TypesTokens2.png" alt="Types and Tokens" style="height: 480px; width:1128px;"/>
   
   #### Word frequency plots:
   <img src="/assets/img/MarineGEO_logo.png" alt="Sentences for each language" style="height: 100px; width:100px;"/>
