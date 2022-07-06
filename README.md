@@ -6,7 +6,7 @@ Before any text collection can begin a few tools and scripts are needed:
 * CV Sentence Extractor
 * WikiExtractor
 * Rust Nightly
-* Pip3
+* Pip3  
 Python3 comes preinstalled with most versions of Ubuntu.
 To see if Python3 is installed on your system run the following in the terminal:
 ```
