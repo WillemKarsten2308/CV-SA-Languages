@@ -129,18 +129,18 @@ Custom rules can be defined for each language. To do this, add a <language>.toml
   All data represented in the table below was acquired using the un.toml rules file unless otherwise indicated.  
 |        | Afrikaans (AFR(af)) | Sepedi (NSO(nso)) | isiZulu (ZUL(zu)) | isiXhosa (XHO(xh)) | Setswana (TSN(tn)) | Xitsonga (TSO(ts)) | Sesotho (SOT(st)) | Tshivenda (VEN(ve)) | SiSwati (SSW(ss)) | Ndebele (NBL(none)) |
 |--------|---------|--------|--------|---------|---------|---------|---------|---------|---------|---------|
-|Sentence Length in Characters| 76.233 | 68.247 | 83.810 | 76.759 | 92.681 | 84.586 | 82.360 | 75.312 |
-|Average Sentence Length in Words| 12.280 | 12.188 | 9.134 | 9.003 | 17.222 | 13.994 | 14.805 | 13.198 |
-|Total Words in Usable Data(Tokens)| 980003 | 3754 | 13035 | 10669 | 12676 | 7431 | 4190 | 2666 |
-|Number of Sentences before LID and Filtering| 79804 | 308 | 1427 | 1185 | 736 | 531 | 283 | 202 |
-|Number of LID Errors| 207 | 80 | 61 | 202 | 92 | 8 | 22 | 4 |
-|Number of Usable Sentences after LID and Filtering| 79597 | 228 | 1366 | 983 | 644 | 523 | 261 | 198 |
-|Total Number of Sentences before LID and Filtering (using no rules and no copyright limits)| 1495511 | 29036 | 55466 | 18793 | 11311 | 6659 | 7404 | 3897 |
-|Percentage Used after LID (Aim for below 10%)| 5.322% | 0.785% | 2.463% | 5.231% | 5.694% | 7.854% | 3.525% | 5.081% |
-|Number of Distinct Words in Usable Data(Types)| 76397 | 1470 | 7966 | 6560 | 2997 | 2238 | 1394 | 941 |
-|Total Words in ALL Data(Tokens)| 23905740 | 254275 | 482284 | 194034 | 243235 | 100564 | 104919 | 35468 |
-|Number of Distinct Words in ALL Data(Types)| 542713 | 15204 | 103990 | 58393 | 19261 | 13272 | 11619 | 5306 |
-|Number of Articles| 103734 | 8575 | 10847 | 1436 | 867 | 740 | 994 | 716 |  
+|Sentence Length in Characters| 76.233 | 68.247 | 83.810 | 76.759 | 92.681 | 84.586 | 82.360 | 75.312 | 88.420 | n/a |
+|Average Sentence Length in Words| 12.280 | 12.188 | 9.134 | 9.003 | 17.222 | 13.994 | 14.805 | 13.198 | 9.888 | n/a |
+|Total Words in Usable Data(Tokens)| 980003 | 3754 | 13035 | 10669 | 12676 | 7431 | 4190 | 2666 | 3649 | n/a |
+|Number of Sentences before LID and Filtering| 79804 | 308 | 1427 | 1185 | 736 | 531 | 283 | 202 | 369 | n/a |
+|Number of LID Errors| 207 | 80 | 61 | 202 | 92 | 8 | 22 | 4 | 26 | n/a |
+|Number of Usable Sentences after LID and Filtering| 79597 | 228 | 1366 | 983 | 644 | 523 | 261 | 198 | 343 | n/a |
+|Total Number of Sentences before LID and Filtering (using no rules and no copyright limits)| 1495511 | 29036 | 55466 | 18793 | 11311 | 6659 | 7404 | 3897 | 5046 | n/a |
+|Percentage Used after LID (Aim for below 10%)| 5.322% | 0.785% | 2.463% | 5.231% | 5.694% | 7.854% | 3.525% | 5.081% | 6.797% | n/a |
+|Number of Distinct Words in Usable Data(Types)| 76397 | 1470 | 7966 | 6560 | 2997 | 2238 | 1394 | 941 | 2474 | n/a |
+|Total Words in ALL Data(Tokens)| 23905740 | 254275 | 482284 | 194034 | 243235 | 100564 | 104919 | 35468 | 37491 | n/a |
+|Number of Distinct Words in ALL Data(Types)| 542713 | 15204 | 103990 | 58393 | 19261 | 13272 | 11619 | 5306 | 15439 | n/a |
+|Number of Articles| 103734 | 8575 | 10847 | 1436 | 867 | 740 | 994 | 716 | 588 | n/a |  
   #### The total amount of scraped sentences per language vs Usable Sentences:  
   <img src="/Images/NumSent.png" alt="Sentences for each language" style="height: 480px; width:640px;"/>
   The ratio of total sentences to usable sentences is very low. This is caused by copyright issues meaning that little to no sentences can be scraped from shorter articles.  
