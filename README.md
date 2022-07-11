@@ -128,18 +128,18 @@ Custom rules can be defined for each language. To do this, add a <language>.toml
   #### Leipzig Language Data  
   |        | Afrikaans (AFR(af)) | Sepedi (NSO(nso)) | isiZulu (ZUL(zu)) | isiXhosa (XHO(xh)) | Setswana (TSN(tn)) | Xitsonga (TSO(ts)) | Sesotho (SOT(st)) | Tshivenda (VEN(ve)) | SiSwati (SSW(ss)) | Ndebele (NBL(nr)) |
 |--------|---------|--------|--------|---------|---------|---------|---------|---------|---------|---------|
-|Total Number of Sentences (using no rules and no copyright limits)| 2198810 | 29819 | 401377 | 85006 | 38182 |  |  |  |  |  |
-|Number of Usable Sentences before LID and Filtering| 1601929 | 17759 | 242394 | 58611 | 29311 |  |  |  |  |  |
-|Number of Usable Sentences after LID and Filtering| 1599222 | 17579 | 236630 | 56761 | 27265 |  |  |  |  |  |
-|Number of LID Errors| 2707 | 180 | 5764 | 1850 | 2066 |  |  |  |  |  |
-|Number of sentences after 9.5 percent copyright restriction| 208887 | 2833 | 38131 | 8076 | 3627 |  |  |  |  |  |
-|Percentage Used after LID (Aim for below 10%)| 9.5% | 9.5% | 9.5% | 9.5% | 9.499% |  |  |  |  |  |
-|Usable Data(Tokens)| 24984427 | 318358 | 3082119 | 783424 | 571378 |  |  |  |  |  |
-|Usable Data(Types)| 419136 | 21093 | 409699 | 147731 | 31487 |  |  |  |  |  |
-|ALL Data(Tokens)| 37350711 | 556876 | 5216871 | 1187942 | 840299 |  |  |  |  |  |
-|ALL Data(Types)| 529694 | 26053 | 483584 | 171900 | 37851 |  |  |  |  |  |
-|Average Sentence Length in Words| 15.596 | 17.926 | 12.715 | 13.366 | 19.480 |  |  |  |  |  |
-|Average Sentence Length in Characters| 90.586 | 94.080 | 113.998 | 119.158 | 103.297 |  |  |  |  |  |  
+|Total Number of Sentences (using no rules and no copyright limits)| 2198810 | 29819 | 401377 | 85006 | 38182 | 20541 | 20047 | 19112 | 10501 | 329 |
+|Number of Usable Sentences before LID and Filtering| 1601929 | 17759 | 242394 | 58611 | 29311 | 15354 | 13604 | 14062 | 9167 | 262 |
+|Number of Usable Sentences after LID and Filtering| 1599222 | 17579 | 236630 | 56761 | 27265 | 15321 | 13465 | 14042 | 9039 | 215 |
+|Number of LID Errors| 2707 | 180 | 5764 | 1850 | 2066 | 33 | 139 | 20 | 128 | 47 |
+|Number of sentences after 9.5 percent copyright restriction| 208887 | 2833 | 38131 | 8076 | 3627 | 1951 | 1904 | 1816 | 998 | 31 |
+|Percentage Used after LID (Aim for below 10%)| 9.5% | 9.5% | 9.5% | 9.5% | 9.499% | 9.498% | 9.498% | 9.502% | 9.504 | 9.422% |
+|Usable Data(Tokens)| 24984427 | 318358 | 3082119 | 783424 | 571378 | 273193 | 254775 | 245567 | 127283 | 3621 |
+|Usable Data(Types)| 419136 | 21093 | 409699 | 147731 | 31487 | 22908 | 17831 | 15772 | 36811 | 2067 |
+|ALL Data(Tokens)| 37350711 | 556876 | 5216871 | 1187942 | 840299 | 398591 | 428236 | 366795 | 149990 | 4615 |
+|ALL Data(Types)| 529694 | 26053 | 483584 | 171900 | 37851 | 26861 | 21943 | 18747 | 40337 | 2464 |
+|Average Sentence Length in Words| 15.596 | 17.926 | 12.715 | 13.366 | 19.480 | 17.792 | 18.727 | 17.463 | 13.884 | 13.820 |
+|Average Sentence Length in Characters| 90.586 | 94.080 | 113.998 | 119.158 | 103.297 | 109.686 | 101.806 | 96.580 | 127.866 | 131.359 |  
   #### Wikipedia Language Data  
   All data represented in the table below was acquired using the un.toml rules file unless otherwise indicated.  
 |        | Afrikaans (AFR(af)) | Sepedi (NSO(nso)) | isiZulu (ZUL(zu)) | isiXhosa (XHO(xh)) | Setswana (TSN(tn)) | Xitsonga (TSO(ts)) | Sesotho (SOT(st)) | Tshivenda (VEN(ve)) | SiSwati (SSW(ss)) | Ndebele (NBL(nr)) |
