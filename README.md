@@ -143,7 +143,7 @@ Custom rules can be defined for each language. To do this, add a <language>.toml
   
   #### The total amount of scraped sentences per language vs Usable Sentences:
   <img src="/Images/NumSent1.png" alt="Sentences for each language" style="height: 480px; width:640px;"/>
-  The ratio of total sentences to usable sentences is very low. This is caused by copyright issues meaning that little to no sentences can be scraped from shorter articles.
+  The ratio of total sentences to usable sentences is almost 1.  
 
   #### Types and Tokens Plot:
   <img src="/Images/TypesTokens1.png" alt="Types and Tokens" style="height: 480px; width:1128px;"/>
