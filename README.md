@@ -140,6 +140,14 @@ Custom rules can be defined for each language. To do this, add a <language>.toml
 |ALL Data(Types)| 529694 | 26053 | 483584 | 171900 | 37851 | 26861 | 21943 | 18747 | 40337 | 2464 |
 |Average Sentence Length in Words| 15.596 | 17.926 | 12.715 | 13.366 | 19.480 | 17.792 | 18.727 | 17.463 | 13.884 | 13.820 |
 |Average Sentence Length in Characters| 90.586 | 94.080 | 113.998 | 119.158 | 103.297 | 109.686 | 101.806 | 96.580 | 127.866 | 131.359 |  
+  
+  #### The total amount of scraped sentences per language vs Usable Sentences:
+  <img src="/Images/NumSent1.png" alt="Sentences for each language" style="height: 480px; width:640px;"/>
+  The ratio of total sentences to usable sentences is very low. This is caused by copyright issues meaning that little to no sentences can be scraped from shorter articles.
+
+  #### Types and Tokens Plot:
+  <img src="/Images/TypesTokens1.png" alt="Types and Tokens" style="height: 480px; width:1128px;"/>
+  
   #### Wikipedia Language Data  
   All data represented in the table below was acquired using the un.toml rules file unless otherwise indicated.  
 |        | Afrikaans (AFR(af)) | Sepedi (NSO(nso)) | isiZulu (ZUL(zu)) | isiXhosa (XHO(xh)) | Setswana (TSN(tn)) | Xitsonga (TSO(ts)) | Sesotho (SOT(st)) | Tshivenda (VEN(ve)) | SiSwati (SSW(ss)) | Ndebele (NBL(nr)) |
@@ -163,14 +171,7 @@ Custom rules can be defined for each language. To do this, add a <language>.toml
   #### Types and Tokens Plot:  
   <img src="/Images/TypesTokens2.png" alt="Types and Tokens" style="height: 480px; width:1128px;"/>
   
-  #### Word frequency plots:
-  <img src="/assets/img/MarineGEO_logo.png" alt="Sentences for each language" style="height: 100px; width:100px;"/>
-  It's clear that the words being repeated a significant number of times decrease at an exponential rate.
+  #### Word frequency plots:  
   
   #### Compared against NCHLT text corpora:
-  <img src="/assets/img/MarineGEO_logo.png" alt="Sentences for each language" style="height: 100px; width:100px; " align="center"/>
-  The language statistics of from Wikipedia and NCHLT should follow the same trend.
-  
-  
 
-  ### 
