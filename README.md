@@ -174,4 +174,9 @@ Custom rules can be defined for each language. To do this, add a <language>.toml
   #### Word frequency plots:  
   
   #### Compared against NCHLT text corpora:
+  <img src="/Images/CharsPerSent.png" alt="Average Characters per Sentence" style="height: 480px; width:640px;"/>
+  <img src="/Images/WordsPerSent.png" alt="Average Words per Sentence" style="height: 480px; width:640px;"/>
+  The amount of characters and words per sentence for NCHLT is much higher than Wikipedia and Leipzig. This is due to the formal and precise format of government documents, which is a main source for NCHLT.
+
+
 
