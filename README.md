@@ -171,7 +171,18 @@ Custom rules can be defined for each language. To do this, add a <language>.toml
   #### Types and Tokens Plot:  
   <img src="/Images/TypesTokens2.png" alt="Types and Tokens" style="height: 480px; width:1128px;"/>
   
-  #### Word frequency plots:  
+  #### NCHLT Language Data  
+  Statistics for NCHLT data represented below.  
+  |        | Afrikaans (AFR(af)) | Sepedi (NSO(nso)) | isiZulu (ZUL(zu)) | isiXhosa (XHO(xh)) | Setswana (TSN(tn)) | Xitsonga (TSO(ts)) | Sesotho (SOT(st)) | Tshivenda (VEN(ve)) | SiSwati (SSW(ss)) | Ndebele (NBL(nr)) |
+|--------|---------|--------|--------|---------|---------|---------|---------|---------|---------|---------|
+|Total Sentences|81316|69242|75622|51349|34125|40865|49000|32267|40473|38226|
+|Tokens|2245587|2177343|1492026|1127135|1262462|1294178|1826740|976209|802132|770661|
+|Types|58983|59568|189114|132482|36474|31592|37585|24929|104920|87494|
+|Average Length in Words|27.615|31.445|19.730|21.950|36.995|31.669|37.280|30.254|19.818|20.160|
+|Average Length in Characters|179.467|171.393|182.279|202.031|206.840|186.764|205.996|172.304|186.227|192.958|
+  
+  #### Tokens to Type Ratio:  
+  
   
   #### Compared against NCHLT text corpora:
   <img src="/Images/CharsPerSent.png" alt="Average Characters per Sentence" style="height: 480px; width:640px;"/>
