@@ -128,9 +128,9 @@ Custom rules can be defined for each language. To do this, add a <language>.toml
   #### Complete Set  
   |        | Afrikaans (AFR(af)) | Sepedi (NSO(nso)) | isiZulu (ZUL(zu)) | isiXhosa (XHO(xh)) | Setswana (TSN(tn)) | Xitsonga (TSO(ts)) | Sesotho (SOT(st)) | Tshivenda (VEN(ve)) | SiSwati (SSW(ss)) | Ndebele (NBL(nr)) |
 |--------|---------|--------|--------|---------|---------|---------|---------|---------|---------|---------|  
-|Total Sentences| 456371 |  |  |  |  |  |  |  |  |  |  
-|Sentence Similarity above 80%| 23566 |  |  |  |  |  |  |  |  |  |  
-|Percentage Removed| 5.164 |  |  |  |  |  |  |  |  |  |
+|Total Sentences| 456371 | 3285 | 14276 | 17429 | 4429 | 2546 | 2222 | 2063 | 1812 | 31 |  
+|Sentence Similarity above 80%| 23566 | 263 | 779 | 1224 | 315 | 138 | 148 | 132 | 66 | 5 |  
+|Percentage Removed| 5.164 | 8.006 | 5.457 | 7.023 | 7.112 | 5.420 | 6.661 | 6.398 | 3.642 | 16.129 |
   
   #### Leipzig Language Data  
   |        | Afrikaans (AFR(af)) | Sepedi (NSO(nso)) | isiZulu (ZUL(zu)) | isiXhosa (XHO(xh)) | Setswana (TSN(tn)) | Xitsonga (TSO(ts)) | Sesotho (SOT(st)) | Tshivenda (VEN(ve)) | SiSwati (SSW(ss)) | Ndebele (NBL(nr)) |
